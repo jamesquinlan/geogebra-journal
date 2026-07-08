@@ -6,5 +6,5 @@
 ![Mathematics Education](https://img.shields.io/badge/Mathematics-Education-green)
 
 ![Academic Publishing](https://img.shields.io/badge/Academic-Publishing-blue)
-![License](https://img.shields.io/github/license/jamesquinlan/nagj)
-![Last Commit](https://img.shields.io/github/last-commit/jamesquinlan/nagj)
+![License](https://img.shields.io/github/license/jamesquinlan/geogebra-journal)
+![Last Commit](https://img.shields.io/github/last-commit/jamesquinlan/geogebra-journal)
