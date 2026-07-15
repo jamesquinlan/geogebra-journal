@@ -2,11 +2,17 @@
 layout: article
 
 title: "Example GeoGebra Article"
+slug: smith2026transformations
 
 authors:
-  - name: "Jane Doe"
-    affiliation: "University Example"
-    email: "jane@example.edu"
+  - name: Jane Smith
+    affiliation: University of Somewhere
+    orcid: 0000-0002-1234-5678
+    email: jane@university.edu
+
+  - name: John Doe
+    affiliation: Another University
+    orcid: 0000-0001-9876-5432
 
 keywords:
   - GeoGebra
