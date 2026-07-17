@@ -119,6 +119,36 @@ title: North American GeoGebra Journal
   color: var(--navy);
 }
 
+.usm-logo-block {
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--gray-100);
+  text-align: center;
+}
+
+.usm-logo-block img {
+  /* Fills the right-nav column (340px) so its edges align with the tile grid,
+     and the cap keeps it that size when the column stacks full-width on mobile.
+     To make the logo smaller, lower this max-width (e.g. 240px). */
+  width: 100%;
+  max-width: 340px;
+  height: auto;
+  opacity: 0.85;
+  transition: opacity 0.15s;
+}
+
+.usm-logo-block a:hover img {
+  opacity: 1;
+}
+
+.usm-logo-caption {
+  font-size: 0.68rem;
+  color: var(--gray-500);
+  margin-top: 0.6rem;
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+}
+
 .migration-banner {
   background: var(--amber-light);
   border: 1px solid #fcd34d;
@@ -225,6 +255,17 @@ Explore
 
 <div class="quick-links" id="quick-links-render"></div>
 
+<div class="usm-logo-block">
+  <a href="https://usm.maine.edu/department-computer-science/" target="_blank" rel="noopener">
+    <img src="{{ '/assets/images/usm-cs-logo.png' | relative_url }}"
+         alt="University of Southern Maine — Department of Computer Science">
+  </a>
+  <div class="usm-logo-caption">
+    Hosted by the Department of Computer Science<br>
+    University of Southern Maine
+  </div>
+</div>
+
 </div>
 
 
@@ -327,6 +368,13 @@ href:'team.html',
 icon:'👥',
 label:'Editorial Team',
 desc:'Editors & reviewers'
+},
+
+{
+href:'about.html',
+icon:'ℹ️',
+label:'About',
+desc:'Scope, mission & history'
 }
 
 ];
