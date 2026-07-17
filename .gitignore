@@ -19,6 +19,9 @@ Gemfile.lock
 # Local AI assistant instructions — personal workflow, not part of the journal
 CLAUDE.md
 
+# Local working notes
+ADDING-ARTICLES.md
+
 # Temporary files
 *.swp
 *~
